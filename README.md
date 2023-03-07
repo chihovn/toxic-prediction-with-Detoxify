@@ -14,10 +14,10 @@ pip install -r requirements.txt
 Replace __ and run code
 ```
 # Window
-python run_prediction.py -- mode __ --input_path __ --save_to __ -- model_name __
+python run_prediction.py --mode __ --input_path __ --save_to __ --model_name __
 
 # Linux
-python3 run_prediction.py -- mode __ --input_path __ --save_to __ -- model_name __
+python3 run_prediction.py --mode __ --input_path __ --save_to __ --model_name __
 ```
 ## Argument list
 ### --mode
