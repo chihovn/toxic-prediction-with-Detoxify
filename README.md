@@ -22,7 +22,7 @@ python3 run_prediction.py -- mode __ --input_path __ --save_to __ -- model_name 
 ## Argument list
 ### --mode
 We have 2 modes:
-- Mode "qa": get input and return output score in terminal.If you choose 'qa' mode, don't need to fill --input_path and --save_to arguments.
+- Mode "qa": get input and return output score in terminal. If you choose 'qa' mode, don't need to fill --input_path and --save_to arguments.
 - Mode "csv": input and output in csv format.
 
 ### --input_path
@@ -34,7 +34,7 @@ path of output csv file if mode csv
 ### --model_name
 This project works with 2 model: "original" and "unbiased".
 
-##Example
+## Example
 ```
 python run_prediction.py --mode csv --input_path example.csv --save_to ./results/unbiased_result.csv --model_name unbiased
 ```
