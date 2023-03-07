@@ -3,21 +3,21 @@
 Clone this github repo
 ```
 git clone https://github.com/chihovn/toxic-prediction-with-Detoxify.git
+cd toxic-prediction-with-Detoxify
 ```
 
-Install requirement
+Install requirements
 ```
 pip install -r requirements.txt
 ```
+
 Replace __ and run code
 ```
-cd toxic-prediction-with-Detoxify
 # Window
 python run_prediction.py -- mode __ --input_path __ --save_to __ -- model_name __
 
 # Linux
 python3 run_prediction.py -- mode __ --input_path __ --save_to __ -- model_name __
-
 ```
 ## Argument list
 ### --mode
@@ -32,7 +32,7 @@ path of input csv file if mode csv
 path of output csv file if mode csv
 
 ### --model_name
-This project works with 3 model: "original" and "unbiased".
+This project works with 2 model: "original" and "unbiased".
 
 ##Example
 ```
