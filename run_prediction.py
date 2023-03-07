@@ -23,7 +23,7 @@ def load_data(input_path):
 @timeit
 def main():
     # init logger
-    init_loger('.log/log.txt')
+    init_loger('log/log.txt')
     logger.info('========================================== START A NEW TURN ==========================================')
     
     # load argument
